@@ -1,5 +1,5 @@
 # 获取当前日期
-$current_date = Get-Date -Format "yyyy-MM-dd"
+current_date=$(date +%Y-%m-%d)
 
 # 提交消息
 commit_message="Update for $current_date"
